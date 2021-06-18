@@ -6,7 +6,7 @@ class AppAside extends Component {
         return ( 
             <div classname="aside">
                 <h2>Aside</h2>
-                <myLink href="/" icon="fa fa-pencil">Home</myLink>
+                <myLink href="/" i class="fa fa-bandcamp" aria-hidden="true">Home</myLink>
             </div>
          );
     }

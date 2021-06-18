@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./style.css"
 
 class AppNavBar extends Component {
   state = {};
@@ -6,6 +7,7 @@ class AppNavBar extends Component {
     return (
       <header className="navbar">
         <h2>Nav Bar</h2>
+        
       </header>
     );
   }
